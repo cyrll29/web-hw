@@ -160,8 +160,10 @@ input:focus {
   background-image: url(./assets/imac_photo.jpeg);
   background-size: cover;
 
-  height: 45rem;
-  width: 78%;
+  margin: auto;
+
+  height: 60rem;
+  width: 90rem;
 }
 
 .theSellingProcess, .theBuyingProcess {
