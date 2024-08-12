@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+.navBar {
+  display: grid;
+  z-index: 98;
+  background-color: NONE;
+  grid-template-columns: 10% 80% 10%;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+
+  height: 70px;
+  position: sticky;
+
+  transition: all 0.5s ease;
+}
+.hideNav {
+  transform: translateY(-100%);
+}
+
+.otherNavBar {
+  display: grid;
+  z-index: 98;
+  background-color: #333333;
+  grid-template-columns: 10% 80% 10%;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+
+  height: 70px;
+  position: sticky;
+
+  transition: transform 0.5s ease;
+}
+
+.navBarText {
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.navBarText:hover {
+  text-decoration: underline;
+}
+
+.sideBar {
+  position: fixed;
+  z-index: 99;
+  height: 100vh;
+  width: 30%;
+  right: -100%;
+  padding: 30px 30px;
+  background-color: lightgreen;
+
+  transition: all 0.5s ease;
+}
+
+.sideBar.active {
+  right: 0;
+}
+
+.mainDiv {
+  transform: translateY(-100px);
+}
+
+.homeHeader {
+  background-image: url(./assets/living_room.jpeg);
+  background-size: contain;
+  width: 100%;
+  height: 40rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 40px;
+}
+
+.searchBar {
+  background-color: #474747;
+  width: 100%;
+  height: 4rem;
+  display: grid; 
+  grid-template-columns: 75% 25%; 
+  justify-content: center; 
+  align-items: center;
+  top: 100px; 
+
+  position: sticky;
+  transition: all 0.5s ease;
+}
+
+.otherSearchBar {
+  background-color: #474747;
+  width: 100%;
+  height: 4rem;
+  display: grid; 
+  grid-template-columns: 75% 25%; 
+  justify-content: center; 
+  align-items: center;
+
+  top: 170px !important; 
+  position: sticky;
+  transition: all 0.5s ease;
+}
+
+
+input:focus {
+  outline: none;
+}
+
+::placeholder {
+  color: lightgray;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.secondSection {
+  width: 100%;
+  height: auto;
+  background-color: white;
+
+  padding-top: 80px;
+  padding-bottom: 80px;
+
+  display: flex;
+  flex-direction: column;
+  row-gap: 100px;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.secondSectionLogo {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.secondSectionText {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.secondSectionPhoto {
+  background-image: url(./assets/imac_photo.jpeg);
+  background-size: cover;
+
+  height: 45rem;
+  width: 78%;
+}
+
+.theSellingProcess, .theBuyingProcess {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: auto;
+  padding: 30px
+}
+
+.theSellingProcess {
+  background-image: url(./assets/office_photo.jpg);
+  background-size: cover;
+}
+
+.theBuyingProcess {
+  background-image: url(./assets/office_photo_2.jpeg);
+  background-size: cover;
+}
+
+.theSellingProcessGrid, .theBuyingProcessGrid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 80%;
+  justify-content: center;
+}
+
+.theBuyingProcessGrid{
+  background-color: rgba(51, 51, 51, 0.8);
+}
+
+.sampleItem {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  width: 400px;
+  height: 300px;
+}
+
+.sampleItemNumber {
+  font-size: 60px;
+  color: white;
+}
+
+.sampleItemTitle {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  font-style: normal;
+  color: white;
+}
