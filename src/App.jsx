@@ -8,6 +8,15 @@ import image_1 from './assets/image-025.jpeg';
 import image_2 from './assets/image_2.jpg';
 import image_3 from './assets/image_3.jpg';
 import image_4 from './assets/image_4.jpg';
+import image_5 from './assets/image_5.jpeg';
+import image_6 from './assets/image_6.jpeg';
+import image_7 from './assets/image_7.jpeg';
+import image_8 from './assets/image_8.jpeg';
+import image_9 from './assets/image_9.jpeg';
+import image_10 from './assets/image_10.jpeg';
+import image_11 from './assets/image_11.jpeg';
+import image_12 from './assets/image_12.jpeg';
+import image_13 from './assets/image_13.jpeg';
 
 function App() {
 
@@ -305,6 +314,177 @@ function App() {
                 <div className='sampleItemTitle'> 
                   COMPLETE SETTLEMENT PROCES
                 </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="realEstateSuccessSection">
+            <div className="ressText">
+              <div className="ressTextHeader">
+                Over 33 Years of Real Estate Success
+              </div>
+              <div className="ressTextDescription">
+                We provide every one of our clients with a level of service they won't find anywhere else. We give them what they need, 
+                often before they know they need it. In real estate, almost everything can be negotiated. When you choose Hansen Partners,
+                its experience is 100% negotiable and it is an experience like no other.
+              </div>
+            </div>
+            <div className="ressPhoto">
+              <img src={image_5}></img>
+            </div>
+          </div>
+
+          <div className="realEstateSuccessSection">
+            <div className="ressPhoto">
+              <img src={image_6}></img>
+            </div>
+            <div className="ressText">
+              <div className="ressTextHeader">
+                We Want To Create An Unforgettable Experience For You...
+              </div>
+              <div className="ressTextDescription">
+                We combine data gained from your home’s Comparative Market Analysis with local market research to create a marketing plan 
+                designed to help you meet your selling goals. Your home’s carefully designed plan will include a range of online, print, and 
+                other marketing tools targeted to the best-qualified pool of buyers. ​​​​​​​ Successfully marketing a home in today’s real estate 
+                environment requires a firm with experience and flexibility. Hansen Partners provides both.
+              </div>
+            </div>
+          </div>
+
+          <div className="realEstateSuccessSectionTwo">
+            <div className="ressText">
+              <div className="ressTextHeader">
+                The Hansen Partners Communications Tablet
+              </div>
+
+              <div className="ressTextDescription">
+                We have created this as a wonderful tool so that we can communicate with you daily, provide you with updates on what is happening 
+                with your home. We are available at the with a click of your tablet.
+              </div>
+
+              <div className="ressTextBenefits">
+                Benefits:
+                <ul>
+                  <li>Review all documents and sign in the comfort of your home or anywhere.</li>
+                  <li>Stay up to date on all marketing activities, review materials, photos, etc. in real time.</li>
+                  <li>Meet with us face to face on our Gotomeeting.com platform to go over and discuss the events of the week.</li>
+                  <li>You have your own email assigned just for you and your common space to quickly write a note, or quickly send a video 
+                      message to us for fast communication using our Bomb bomb video messaging system.</li>
+                </ul>
+              </div>
+
+              <div className="ressTextDescription">
+                We believe that transparency and guiding you and your family through the process is key to having the best experience.  During 
+                these uncertain times. It is a good feeling to know you have some one with a proven track record you can count on.  We will be 
+                here to handle your needs during the Real Estate process.  We think of it before a need even arises. Because, that is just what 
+                we do.  Who you work with does matter! 
+              </div>
+            </div>
+
+            <div className="ressPhoto">
+              <img src={image_7}></img>
+            </div>
+          </div>
+
+          <hr />
+
+          <div className='marketing-strategy'>
+            <div className="item-1a">
+              <div>
+                <h2 style={{ fontSize: '50px' }}>We Market Your Home to The World</h2>
+              </div>
+              <div>
+                <p>Our Online Marketing Strategy</p>
+              </div>
+              <div>
+                <p>​​​​​​​The Bay Area remains one of the world's most sought-after regions to live in, and when looking to sell, it is vital that your home be marketed online to audiences locally, nationally, and internationally.</p>
+              </div>
+            </div>
+            <div className="item-2a">
+              <div className="item-a-header" style={{ fontWeight: 'bolder' }}>
+                Local Exposure
+              </div>
+              <div className="item-a-text">
+                Through our partnership with Nextdoor, the private online social network now used in over 80% of U.S. neighborhoods and virtually 
+                all Bay Area neighborhoods, we make sure your home receives targeted local exposure. When you list your home with Hansen Partners 
+                it will automatically appear on Nextdoor in your neighborhood
+              </div>
+            </div>
+            <div className="item-3a">
+              <div className="item-a-header" style={{ fontWeight: 'bolder' }}>
+                National Exposure
+              </div>
+              <div className="item-a-text">
+                We secure strategic positioning and enhancement on Realtor.com, Trulia, and Zillow, driving more consumers to your home and 
+                increasing exposure. We  will receive every inquiry about your property directly.
+              </div>
+            </div>
+            <div className="item-4a">
+              <div className="item-a-header" style={{ fontWeight: 'bolder' }}>
+                International Exposure
+              </div>
+              <div className="item-a-text">
+                To expose your luxury listing to millions of potential homebuyers worldwide, we promote on prominent international real 
+                estate portals, including: Wall Street Journal, LuxuryPortfolio.com, LuxuryRealEstate.com, LeadingRE.com, UniqueHomes.com, 
+                China.apr.com, Caimeiju, Juwai, Country Life UK
+              </div>
+            </div>
+          </div>
+
+          <div className="three-logo-picture" style={{ justifyContent: 'center', alignItems: 'center', display: 'flex', flexDirection: 'row' }}>
+            <img src={image_8} alt="Logo" />
+          </div>
+
+          <div className="partner-section-one">
+            <div className="partner-section-one-text">
+              <div className='partner-section-one-text-logos'>
+                <img src={image_9} alt="Logo" />
+                <img src={image_10} alt="Logo" />
+                <img src={image_11} alt="Logo" />
+              </div>
+
+              <div className="partner-section-one-actual-text">
+                <strong>Leading Real Estate Companies of The World® & Luxury Portfolio International</strong> <br/><br/>
+               <strong>JRockcliff</strong> is a founding member of Luxury Portfolio International®, the luxury 
+               division of Leading Real Estate Companies of the World®. With more than 500 member 
+               firms around the world, Our luxury listings are exposed to a vast global audience 
+               and reach potential buyers and investors in over 50 countries. <br/><br/>
+               <strong>Who's Who in Luxury Real Estate</strong> <br/><br/>
+               Who’s Who in Luxury Real Estate is a global collection of luxury real estate brokers.
+              </div>
+            </div>
+
+            <div className="partner-section-one-photo">
+              <img src={image_12} alt="Photo" />
+            </div>
+          </div>
+
+          <div className="partner-section-one">
+            <div className="partner-section-one-photo">
+              <img src={image_13} alt="Photo" />
+              <div className='partner-section-one-photo-text'>
+                Through our international affiliations, we have a strong presence in over 50 countries. Our luxury 
+                listings are sent to prominent international real estate sites, reaching over 70 million potential 
+                buyers and investors worldwide through our relationships with:
+              </div>
+            </div>
+
+            <div className="partner-section-one-text">
+              <div className="partner-section-one-actual-text">
+                Through our international affiliations, we have a strong presence in over 50 countries. Our luxury 
+                listings are sent to prominent international real estate sites, reaching over 70 million potential 
+                buyers and investors worldwide through our relationships with:
+              </div>
+
+              <div className='partner-section-one-text-logos'>
+                <img src={image_9} alt="Logo" />
+                <img src={image_10} alt="Logo" />
+                <img src={image_11} alt="Logo" />
+              </div>
+
+              <div className="partner-section-one-actual-text">
+                We also have several well-positioned affiliate offices in China, providing our clients with access 
+                to buyers in Hong Kong, Shanghai, and Beijing. 
               </div>
             </div>
           </div>

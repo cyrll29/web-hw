@@ -174,7 +174,7 @@ input:focus {
   justify-content: center;
   align-items: center;
 
-  width: 100%;
+  width: auto;
   height: auto;
   padding: 30px
 }
@@ -234,11 +234,6 @@ input:focus {
   padding: 70px
 }
 
-/* .item-1, .item-2, .item-3, .item-4 {
-  background-color: pink;
-  border: solid 4px red;
-} */
-
 .item-1 {
   background-color: black;
   display: grid;
@@ -280,4 +275,174 @@ input:focus {
   height: 400px;
 }
 
+.realEstateSuccessSection {
+  display: flex;
+  flex-direction: row;
 
+  justify-content: center;
+  align-items: center;
+
+  height: 40rem;
+
+  margin: 100px;
+}
+
+.ressText {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  width: 50%;
+  text-align: center;
+}
+
+.ressTextHeader {
+  font-size: 40px;
+}
+
+.ressTextDescription {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 2;
+}
+
+.ressPhoto {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.ressPhoto > img {
+  width: 88%;
+}
+
+.ressTextBenefits {
+  text-align: left;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 2;
+}
+
+.realEstateSuccessSectionTwo {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: center;
+  align-items: flex-start;
+
+  height: auto;
+
+  margin: 100px;
+}
+
+.marketing-strategy {
+  width: auto;
+  height: 50rem;
+
+  padding: 70px;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.item-1a {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+
+  justify-content: center;
+  align-items: center;
+
+  font-size: 20px;
+  line-height: 2;
+
+  grid-row: 1 / 1;
+  grid-column: 1 / 4;
+}
+
+.item-1a p {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+
+.item-2a, .item-3a, .item-4a {
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 2;
+}
+
+.partner-section-one {
+  margin-top: 30px;
+  padding: 30px;
+
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+
+  justify-content: center;
+  align-items: center;
+
+  width: 95.3vw;
+  height: auto;
+}
+
+.partner-section-one-text, .partner-section-one-photo {
+  width: 40vw;
+}
+
+.partner-section-one-photo {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.partner-section-one-photo > img {
+  width: 40vw;
+  height: auto;
+}
+
+.partner-section-one-text-logos {
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.partner-section-one-text-logos > img {
+  width: auto;
+  height: 100px;
+}
+
+.partner-section-one-actual-text, .partner-section-one-photo-text {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 2;
+}
