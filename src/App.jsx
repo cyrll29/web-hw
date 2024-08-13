@@ -2,8 +2,12 @@ import { useState, useEffect, useRef } from 'react'
 import './App.css'
 import { FaBars, FaSearch, FaArrowRight, FaRegEnvelope, FaRegFlag, FaMapMarkedAlt } from "react-icons/fa"
 import { TbPhoto } from "react-icons/tb";
-import SideNav from './sideNav'
-import { useSpring, animated } from 'react-spring'
+import SideNav from './sideNav';
+import { useSpring, animated } from 'react-spring';
+import image_1 from './assets/image-025.jpeg';
+import image_2 from './assets/image_2.jpg';
+import image_3 from './assets/image_3.jpg';
+import image_4 from './assets/image_4.jpg';
 
 function App() {
 
@@ -36,15 +40,6 @@ function App() {
   const [showNav, setShowNav] = useState('')
   const [showSideNav, setShowSideNav] = useState(false);
   const [searchBar, setSearchBar] = useState('searchBar');
-
-  const [firstCount, setFirstCount] = useState(0);
-  const timerIdRef = useRef(null);
-
-  const onLoad = () => {
-    timerIdRef.current = setInterval(() => {
-      setFirstCount(firstCount + 1);
-    }, 1000);
-  };
 
   useEffect(() => {
     const handleScroll = () => {
@@ -178,6 +173,47 @@ function App() {
               <div className='secondSectionText'>
                 Beautiful, high-end photography is a central part of our marketing plan for your property.
               </div>
+            </div>
+          </div>
+
+          <div className="gridSection">
+            <div className="item-1">
+              Decor <br/>Guidance
+            </div>
+            <div className="item-2">
+              <img src={image_1}></img>
+            </div>
+            <div className="item-3">
+              <img src={image_2}></img>
+            </div>
+            <div className="item-4">
+              <p>My Staging Expertise</p>
+              <ul>
+                <li>Unclutter and organize your home</li>
+                <li>Neatly arrange drawers and cabinets</li>
+                <li>Keep pets outdoors or off the premises</li>
+                <li>Play soft music</li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="gridSection">
+            <div className="item-1">
+              Intentional <br/>Layout
+            </div>
+            <div className="item-2">
+              <img src={image_3}></img>
+            </div>
+            <div className="item-3">
+              <img src={image_4}></img>
+            </div>
+            <div className="item-4">
+              <ul>
+                <li>Unclutter and organize your home</li>
+                <li>Neatly arrange drawers and cabinets</li>
+                <li>Keep pets outdoors or off the premises</li>
+                <li>Play soft music</li>
+              </ul>
             </div>
           </div>
 

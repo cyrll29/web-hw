@@ -224,3 +224,60 @@ input:focus {
   font-style: normal;
   color: white;
 }
+
+.gridSection {
+  display: grid;
+  grid-template-columns: repeat(2, 40rem);
+  grid-template-rows: repeat(2, 25rem);
+  justify-content: center;
+
+  padding: 70px
+}
+
+/* .item-1, .item-2, .item-3, .item-4 {
+  background-color: pink;
+  border: solid 4px red;
+} */
+
+.item-1 {
+  background-color: black;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  font-size: 35px;
+  color: white;
+}
+
+.item-4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.item-4 > p {
+  font-size: 40px;
+  margin: 0;
+}
+
+.item-4 > ul > li {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 3;
+}
+
+.item-2 > img {
+  width: 636px;
+  height: 400px;
+}
+
+.item-3 > img {
+  width: 640px;
+  height: 400px;
+}
+
+
