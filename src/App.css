@@ -58,9 +58,75 @@
   width: 30%;
   right: -100%;
   padding: 30px 30px;
-  background-color: lightgreen;
+  background-color: white;
+
+  border-left: solid 2rem gray;
+
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+
+  justify-content: center;
+  align-items: flex-end;
 
   transition: all 0.5s ease;
+}
+
+.close-button {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: flex-end;
+
+  cursor: pointer;
+
+  transition: all 0.5s ease-in-out;
+}
+
+.components {
+  width: 100%;
+  height: 90%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.close-button:hover {
+  color: gray;
+
+  transition: all 0.5s ease-in-out;
+}
+
+.sb-button {
+  height: 3vw;
+  width: 20vw;
+
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  font-weight: bold;
+  font-style: normal;
+
+  background-color: rgba(255, 255, 255, 0);
+
+  border: none;
+  border-bottom: solid 2px gray;
+
+  cursor: pointer;
+
+  transition: all 0.3s ease-in-out;
+}
+
+.sb-button:hover {
+  background-color: gray;
+  transition: all 0.3s ease-in-out;
+
+  border: none;
+  border-bottom: solid 2px gray;
+  color: white;
 }
 
 .sideBar.active {
@@ -445,4 +511,114 @@ input:focus {
   font-weight: 400;
   font-style: normal;
   line-height: 2;
+}
+
+.ipad-section {
+  display: flex;
+  flex-direction: row;
+  column-gap: 30px;
+
+  margin-bottom: 80px;
+
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: auto;
+}
+
+.ipad-section-photo, .ipad-section-logos {
+  width: 40vw;
+  height: 80%;
+}
+
+.ipad-section-logos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+
+  column-gap: 50px;
+  row-gap: 50px;
+}
+
+.isp-1, .isp-2, .isp-3, .isp-4 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.isp-body {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ipad-section-photo {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.ipad-section-photo > img {
+  width: 35rem;
+  height: auto;
+}
+
+.last-section {
+  width: 100%;
+  height: 40rem;
+  background-image: url(./assets/living_room.jpeg);
+  background-size: cover; 
+  background-position: center;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.last-section-text {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  width: 40vw;
+}
+
+.last-section-button {
+  width: 10vw;
+  height: 6vh;
+  border: solid 4px white;
+  background-color: rgba(255, 255, 255, 0);
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  cursor: pointer;
+
+  transition: all 0.5s ease;
+}
+
+.last-section-button:hover {
+  background-color: white;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+
+  transition: all 0.5s ease;
 }

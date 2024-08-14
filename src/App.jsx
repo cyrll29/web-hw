@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react'
 import './App.css'
-import { FaBars, FaSearch, FaArrowRight, FaRegEnvelope, FaRegFlag, FaMapMarkedAlt } from "react-icons/fa"
+import { FaBars, FaSearch, FaArrowRight, FaRegEnvelope, FaRegFlag, FaMapMarkedAlt, FaCameraRetro } from "react-icons/fa"
 import { TbPhoto } from "react-icons/tb";
 import SideNav from './sideNav';
 import { useSpring, animated } from 'react-spring';
@@ -17,6 +17,7 @@ import image_10 from './assets/image_10.jpeg';
 import image_11 from './assets/image_11.jpeg';
 import image_12 from './assets/image_12.jpeg';
 import image_13 from './assets/image_13.jpeg';
+import image_14 from './assets/image_14.jpeg';
 
 function App() {
 
@@ -486,6 +487,77 @@ function App() {
                 We also have several well-positioned affiliate offices in China, providing our clients with access 
                 to buyers in Hong Kong, Shanghai, and Beijing. 
               </div>
+            </div>
+          </div>
+          
+          <div className='ipad-section'>
+            <div className="ipad-section-logos">
+              <div className="isp-1">
+                <div>
+                  <FaRegEnvelope size={70}/>
+                </div>
+                <div style={{ fontSize: '40px'}}>
+                  Responsive
+                </div>
+                <div className='isp-body'>
+                  I am always available via phone, text, or email to answer your questions in a timely manner.
+                </div>
+              </div>
+              <div className="isp-2">
+                <div>
+                <FaRegFlag size={70}/>
+                </div>
+                <div style={{ fontSize: '40px'}}>
+                  Syndication
+                </div>
+                <div className='isp-body'>
+                  I market your property locally, nationally, and internationally.
+                </div>
+              </div>
+              <div className="isp-3">
+                <div>
+                  <FaMapMarkedAlt size={70}/>
+                </div>
+                <div style={{ fontSize: '40px'}}>
+                  Virtual Tour
+                </div>
+                <div className='isp-body'>
+                  Let’s make your home stand out with a high quality virtual tour.
+                </div>
+              </div>
+              <div className="isp-4">
+                <div>
+                  <FaCameraRetro size={70}/>
+                </div>
+                <div style={{ fontSize: '40px'}}>
+                  Drone Photography
+                </div>
+                <div className='isp-body'>
+                  Beautiful photography is a central part of our marketing plan for your property.
+                </div>
+              </div>
+            </div>
+            <div className="ipad-section-photo">
+              <img src={image_14} alt="Photo" />
+            </div>
+          </div>
+
+          <div className="last-section">
+            <div style={{ fontSize: '50px', color: 'white' }}>
+              Work With Us
+            </div>
+            <div style={{ fontSize: '50px', color: 'white' }}>
+              ________
+            </div>
+            <div className='last-section-text'>
+              With decades of experience in luxurious Tri Valley real estate, our team is here to 
+              ensure that your dreams are a reality. Let us guide you through your home buying journey, 
+              contact us today!
+            </div>
+            <div>
+              <button className='last-section-button'>
+                CONTACT US
+              </button>
             </div>
           </div>
         </div>
